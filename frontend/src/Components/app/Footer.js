@@ -11,7 +11,7 @@ function Footer() {
             </ul>
 
             <p>
-              <small>Copyright &copy;NaYeon Kwon</small>
+              <small>Copyright &copy;SunEun Kim</small>
             </p>
           </div>
         </footer>

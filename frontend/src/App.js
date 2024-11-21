@@ -7,15 +7,14 @@ import Footer from "./Components/app/Footer"
 import AuthProvider from "./Components/context/AuthProvider"
 import HttpHeadersProvider from "./Components/context/HttpHeadersProvider";
 import "./css/style.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
 function App() {
 
   return (
     <div>
       <BrowserRouter>
-        
-        <Header />
-        
         <AuthProvider>
           <HttpHeadersProvider>
             <Nav />
