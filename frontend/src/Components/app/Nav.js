@@ -9,7 +9,7 @@ function Nav() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">SBB</a>
+        <a class="navbar-brand" href="/">BBS</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -20,16 +20,16 @@ function Nav() {
               {
                 (auth) ?
                   <>
-                    <a class="nav-link">로그아웃</a>
+                    <a class="nav-link" href="/logout">로그아웃</a>
                   </>
                   :
                   <>
-                    <a class="nav-link">로그인</a>
+                    <a class="nav-link" href="/login">로그인</a>
                   </>
               }
             </li>
             <li class="nav-item">
-              <a class="nav-link">회원 가입</a>
+              <a class="nav-link" href="/join">회원 가입</a>
             </li>
           </ul>
         </div>
