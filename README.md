@@ -1,4 +1,4 @@
-#  sbb
+#  BBS
 
 BBS, 링크 구현
 ![image](https://github.com/user-attachments/assets/5d6e4b74-285d-4662-afc4-ee6a6ca334ca)
